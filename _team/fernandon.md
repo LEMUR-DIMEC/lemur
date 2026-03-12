@@ -9,7 +9,7 @@ githuburl: "https://github.com/FernandoN23"
 blogurl: 
 email: "fernando.navarrete@ug.uchile.cl"
 promoted: true 
-weight: 7
+weight: 5
 ---
 
 <!--more-->

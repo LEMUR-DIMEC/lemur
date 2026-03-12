@@ -7,7 +7,7 @@ category: profesor
 promoted: true
 linkedinurl: "https://www.linkedin.com/in/carolinasilvaplata/"
 githuburl: "https://github.com/bluecarolinne"
-blogurl: "https://www.carolinnesilva.com"
+blogurl: 
 email: "carolsilva@uchile.cl"
 weight: 4
 ---

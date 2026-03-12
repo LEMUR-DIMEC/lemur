@@ -8,7 +8,7 @@ linkedinurl: "https://www.linkedin.com/in/brojasbus/"
 githuburl: "https://github.com/benja-irb"
 email: "benjaminrojas@uchile.cl"
 promoted: true
-weight: 8
+weight: 7
 ---
 <!--more-->
 
