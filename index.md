@@ -8,10 +8,10 @@ show_call_box: true
 ---
 <div style="margin-top: -80px; margin-bottom: 20px;">
   <img 
-    src="{{ '/images/logo-DIMEC.webp' | relative_url }}" 
+    src="{{ '/images/logo-fcfm.png' | relative_url }}" 
     alt="Universidad de Chile"
     style="
-      width: 50%;
+      width: 70%;
       max-width: 320px;
       height: auto;
     "
