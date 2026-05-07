@@ -12,10 +12,11 @@ show_call_box: true
       src="{{ '/images/logo-fcfm.png' | relative_url }}" 
       alt="DIMEC"
       style="
-        width: 85%;
-        max-width: 260px;
-        min-width: 180px;
+        width: 65%;
+        max-width: 240px;
+        min-width: 160px;
         height: auto;
+        display: block;
       "
     >
   </a>
