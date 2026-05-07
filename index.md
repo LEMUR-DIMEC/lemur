@@ -6,7 +6,13 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
-
+<div style="margin-top: -80px; margin-bottom: 20px;">
+  <img 
+    src="{{ '/images/logo-DIMEC.webp' | relative_url }}" 
+    alt="Universidad de Chile"
+    style="max-width: 100%; border-radius: 1px;"
+  >
+</div>
 <h1 style="color: #FF9966 ;">Laboratorio de Mecatrónica y Robótica</h1>
 
 El Laboratorio de Mecatrónica y Robótica (LEMUR) del Departamento de Mecánica de la Universidad de Chile, es un espacio dedicado a la creación, exploración y desarrollo de proyectos innovadores en mecatrónica, robótica, diseño mecánico y visión computacional. Nos enfocamos en la manufactura y prototipado de hardware para sistemas robóticos —tanto rígidos como blandos—, integrando ingeniería, creatividad y experimentación para abordar desafíos con soluciones tecnológicas de vanguardia.

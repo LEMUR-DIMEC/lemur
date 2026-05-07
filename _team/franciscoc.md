@@ -2,9 +2,9 @@
 layout: team-profile
 title: "Francisco Cáceres"
 image: "images/team/francisco-c.jpg"
-jobtitle: "Tesista"
+jobtitle: "Auxiliar - Curso Mecatrónica"
 category: estudiante
-promoted: true
+promoted: false
 linkedinurl: 
 githuburl: "https://github.com/Panxouu"
 email: "franciscocv8@gmail.com"
