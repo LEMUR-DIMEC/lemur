@@ -10,7 +10,11 @@ show_call_box: true
   <img 
     src="{{ '/images/logo-DIMEC.webp' | relative_url }}" 
     alt="Universidad de Chile"
-    style="max-width: 100%; border-radius: 1px;"
+    style="
+      width: 50%;
+      max-width: 320px;
+      height: auto;
+    "
   >
 </div>
 <h1 style="color: #FF9966 ;">Laboratorio de Mecatrónica y Robótica</h1>
