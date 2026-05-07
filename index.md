@@ -7,15 +7,18 @@ intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 <div style="margin-top: -80px; margin-bottom: 20px;">
-  <img 
-    src="{{ '/images/logo-fcfm.png' | relative_url }}" 
-    alt="Universidad de Chile"
-    style="
-      width: 70%;
-      max-width: 320px;
-      height: auto;
-    "
-  >
+  <a href="https://ingenieria.uchile.cl/" target="_blank">
+    <img 
+      src="{{ '/images/logo-fcfm.png' | relative_url }}" 
+      alt="DIMEC"
+      style="
+        width: 85%;
+        max-width: 260px;
+        min-width: 180px;
+        height: auto;
+      "
+    >
+  </a>
 </div>
 <h1 style="color: #FF9966 ;">Laboratorio de Mecatrónica y Robótica</h1>
 
