@@ -11,8 +11,9 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
+  padding-right: 40px;
   &.open {
     opacity: 0.9;
     visibility: visible;
@@ -39,9 +40,11 @@
     }
   }
   ul {
-    font-size: 30px;
+    font-size: 18px;
     font-family: $font-family-base;
-    text-align: center;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -60,6 +63,10 @@
         &:hover {
           opacity: 0.8;
         }
+      }
+      &.active a {
+        color: $steel;
+        font-weight: bold;
       }
     }
   }

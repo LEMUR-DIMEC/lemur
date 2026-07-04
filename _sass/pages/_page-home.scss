@@ -1,4 +1,10 @@
 .page-home {
+  .fcfm-logo-wrapper {
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+  }
+
   .fcfm-logo {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
@@ -7,5 +13,9 @@
     &:focus {
       filter: grayscale(0%);
     }
+  }
+
+  .service-content p {
+    text-align: center;
   }
 }

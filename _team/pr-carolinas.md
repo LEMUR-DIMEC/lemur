@@ -2,7 +2,7 @@
 layout: team-profile
 title: "Carolina Silva"
 image: "images/team/carolina-s.jpg"
-jobtitle: "Profesora - Investigadora"
+jobtitle: "Investigadora"
 category: profesor
 promoted: true
 linkedinurl: "https://www.linkedin.com/in/carolinasilvaplata/"

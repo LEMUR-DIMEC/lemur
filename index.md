@@ -6,7 +6,7 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
-<div style="margin-top: -80px; margin-bottom: 20px;">
+<div class="fcfm-logo-wrapper" style="margin-top: -80px; margin-bottom: 20px;">
   <a href="https://ingenieria.uchile.cl/" target="_blank">
     <img 
       src="{{ '/images/logo-fcfm.png' | relative_url }}" 

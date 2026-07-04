@@ -134,6 +134,10 @@ body {
   }
 }
 
+p {
+  text-align: justify;
+}
+
 h1, h2, h3 {
   word-break: break-word;
   line-height: 1.2;
@@ -223,18 +227,6 @@ h1, h2, h3 {
   color: $primary;
 }
 
-
-body.page {
-  padding-top: 3rem;
-
-  @include media-breakpoint-down(md) {
-    padding-top: 3rem;
-  }
-
-  @include media-breakpoint-down(sm) {
-    padding-top: 6.5rem;
-  }
-}
 
 #wrapper {
   padding-top: 5rem;
