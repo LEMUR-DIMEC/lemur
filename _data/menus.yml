@@ -3,10 +3,10 @@ main:
     url: "/actividades/"
     weight: 2
   - name: "Equipo"
-    url: "/team/"
+    url: "/equipo/"
     weight: 3
   - name: "Investigación"
-    url: "/about/"
+    url: "/investigacion/"
     weight: 4
 
 footer:
