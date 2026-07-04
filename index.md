@@ -11,6 +11,7 @@ show_call_box: true
     <img 
       src="{{ '/images/logo-fcfm.png' | relative_url }}" 
       alt="DIMEC"
+      class="fcfm-logo"
       style="
         width: 85%;
         max-width: 280px;
