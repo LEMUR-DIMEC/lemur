@@ -1,6 +1,7 @@
 ---
 title: "Global Soft Robotics Day"
 date: 21 de noviembre 2025
+year: 2025
 weight: 3
 layout: actividad
 ---

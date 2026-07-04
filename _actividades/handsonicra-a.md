@@ -1,6 +1,7 @@
 ---
 title: "Hands-on 1a: Planar Subactuated Locomotion Mechanism for a Quadruped Robot Leg"
 date: 21 de mayo 2025
+year: 2025
 weight: 1
 layout: actividad
 ---

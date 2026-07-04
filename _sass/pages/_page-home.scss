@@ -1,2 +1,11 @@
 .page-home {
+  .fcfm-logo {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+
+    &:hover,
+    &:focus {
+      filter: grayscale(0%);
+    }
+  }
 }
