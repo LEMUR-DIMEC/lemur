@@ -5,3 +5,13 @@
 [build.environment]
   JEKYLL_ENV = "production"
   RUBY_VERSION = "3.2.2"
+
+[[redirects]]
+  from = "/team/*"
+  to = "/equipo/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/about/"
+  to = "/investigacion/"
+  status = 301

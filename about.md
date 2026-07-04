@@ -1,5 +1,5 @@
 ---
-
+permalink: "/investigacion/"
 layout: page
 description: About
 bodyClass: page-about
