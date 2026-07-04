@@ -14,6 +14,10 @@
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
+    @include media-breakpoint-down(md) {
+      font-size: 28px;
+      text-align: center;
+    }
     @include media-breakpoint-up(md) {
       width: 80%;
       font-size: 48px;
@@ -35,6 +39,9 @@
     font-weight: light;
     line-height: 1.5;
     color: $black;
+    @include media-breakpoint-down(md) {
+      font-size: 0.95rem;
+    }
     @include media-breakpoint-up(md) {
       width: 80%;
     }
