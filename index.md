@@ -1,9 +1,12 @@
 ---
 title: Laboratorio de Mecatrónica y Robótica
 layout: home
-intro_image: "images/illustrations/robot_1.png"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+intro_images:
+  - "images/illustrations/robot_1.png"
+  - "images/illustrations/lemur_perro.jpg"
+  - "images/illustrations/lemur_1.jpg"
+  - "images/illustrations/lemur_2.jpg"
+  - "images/illustrations/lemur_3.jpg"
 show_call_box: true
 ---
 <div class="fcfm-logo-wrapper" style="margin-top: -80px; margin-bottom: 20px;">

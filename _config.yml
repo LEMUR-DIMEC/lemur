@@ -24,6 +24,9 @@ collections:
   team:
     output: true
     permalink: /equipo/:path/
+  proyectos:
+    output: true
+    sort_by: weight
 
 defaults:
   - scope:

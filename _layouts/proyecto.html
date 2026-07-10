@@ -1,0 +1,67 @@
+---
+layout: default
+bodyClass: "page-proyecto"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-10">
+      <div class="service service-single">
+
+        <span class="badge-proyecto">Proyecto</span>
+        <h1 class="title">{{ page.title }}</h1>
+
+        <div class="row project-body">
+          {% if page.image %}
+          <div class="col-12 col-md-6">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="project-image" />
+          </div>
+          {% endif %}
+          <div class="col-12 col-md-6">
+            {% if page.profesor %}
+            <p class="project-meta">
+              <strong>Profesor guía:</strong>
+              {% if page.profesor_url %}
+              <a href="{{ page.profesor_url | relative_url }}">{{ page.profesor }}</a>
+              {% else %}
+              {{ page.profesor }}
+              {% endif %}
+            </p>
+            {% endif %}
+
+            {% if page.estudiante %}
+            <p class="project-meta">
+              <strong>Estudiante responsable:</strong>
+              {% if page.estudiante_url %}
+              <a href="{{ page.estudiante_url | relative_url }}">{{ page.estudiante }}</a>
+              {% else %}
+              {{ page.estudiante }}
+              {% endif %}
+            </p>
+            {% endif %}
+
+            {% if page.estado %}
+            <p class="project-meta"><strong>Estado:</strong> {{ page.estado }}</p>
+            {% endif %}
+
+            <div class="content">{{ content }}</div>
+
+            {% if page.github %}
+            <p class="project-meta"><a href="{{ page.github }}" target="_blank" rel="noreferrer">Ver en GitHub</a></p>
+            {% endif %}
+
+            <span class="badge-tipo">
+              Proyecto:
+              {% case page.tipo %}
+              {% when 'publico' %}Abierto a todo público
+              {% when 'dimec' %}Abierto a DIMEC
+              {% when 'lemur' %}Solo integrantes LEMUR
+              {% else %}{{ page.tipo }}
+              {% endcase %}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
