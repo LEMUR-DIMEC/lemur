@@ -1,0 +1,32 @@
+.page-proyecto {
+  .project-body {
+    margin-top: 20px;
+  }
+
+  .project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
+  }
+
+  .project-meta {
+    margin-bottom: 6px;
+    font-size: 1rem;
+  }
+
+  .badge-tipo {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: $steel;
+    background-color: $white-offset;
+    border-radius: 20px;
+  }
+}

@@ -20,18 +20,42 @@ bodyClass: "page-services"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% for service in site.actividades %}
-    <div class="col-12 mb-3">
-      <div class="service service-summary">
-        <div class="service-content">
-          <span class="badge-evento">Evento {{ service.year }}</span>
-          <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-          </h2>
-          <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+    <div class="col-12 col-lg-6 order-2 order-lg-1">
+      <h2 class="section-title">Actividades</h2>
+      {% for service in site.actividades %}
+      <div class="mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <span class="badge-evento">Evento {{ service.year }}</span>
+            <h2 class="service-title">
+              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            </h2>
+            <p>{{ service.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    {% endfor %}
+
+    <div class="col-12 col-lg-6 order-1 order-lg-2">
+      <h2 class="section-title">Proyectos</h2>
+      {% assign proyectos = site.proyectos | sort: 'weight' %}
+      {% for project in proyectos %}
+      <div class="mb-3">
+        <div class="service service-summary">
+          <div class="service-content">
+            <span class="badge-proyecto">Proyecto</span>
+            <h2 class="service-title">
+              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+            </h2>
+            {% assign project_description = project.content | strip %}
+            {% if project_description != "" %}
+            <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
