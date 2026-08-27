@@ -12,13 +12,41 @@ bodyClass: "page-proyecto"
         <h1 class="title">{{ page.title }}</h1>
 
         <div class="row project-body">
-          {% if page.image %}
+          {% if page.images %}
+          <div class="col-12 col-md-6">
+            <div class="intro-gallery project-gallery">
+              {% for img in page.images %}
+              <img alt="{{ page.title }}" class="intro-gallery-img{% if forloop.first %} active{% endif %}" src="{{ img | relative_url }}" />
+              {% endfor %}
+              {% if page.images.size > 1 %}
+              <button type="button" class="intro-gallery-arrow intro-gallery-prev" aria-label="Imagen anterior">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button type="button" class="intro-gallery-arrow intro-gallery-next" aria-label="Imagen siguiente">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+              <div class="intro-gallery-controls">
+                {% for img in page.images %}
+                <button type="button" class="intro-gallery-dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="Ver imagen {{ forloop.index }}"></button>
+                {% endfor %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+          {% elsif page.image %}
           <div class="col-12 col-md-6">
             <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="project-image" />
           </div>
           {% endif %}
           <div class="col-12 col-md-6">
-            {% if page.profesor %}
+            {% if page.profesores %}
+            <p class="project-meta">
+              <strong>{% if page.profesores.size > 1 %}Profesores guía:{% else %}Profesor guía:{% endif %}</strong>
+              {% for profesor in page.profesores %}
+              {% if profesor.url %}<a href="{{ profesor.url | relative_url }}">{{ profesor.nombre }}</a>{% else %}{{ profesor.nombre }}{% endif %}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </p>
+            {% elsif page.profesor %}
             <p class="project-meta">
               <strong>Profesor guía:</strong>
               {% if page.profesor_url %}
@@ -29,7 +57,18 @@ bodyClass: "page-proyecto"
             </p>
             {% endif %}
 
-            {% if page.estudiante %}
+            {% if page.estudiantes %}
+            <p class="project-meta">
+              <strong>{% if page.estudiantes.size > 1 %}Estudiantes integrantes:{% else %}Estudiante responsable:{% endif %}</strong>
+            </p>
+            <ul class="project-meta-list">
+              {% for estudiante in page.estudiantes %}
+              <li>
+                {% if estudiante.url %}<a href="{{ estudiante.url | relative_url }}">{{ estudiante.nombre }}</a>{% else %}{{ estudiante.nombre }}{% endif %}{% if estudiante.depto %} ({{ estudiante.depto }}){% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+            {% elsif page.estudiante %}
             <p class="project-meta">
               <strong>Estudiante responsable:</strong>
               {% if page.estudiante_url %}
@@ -44,6 +83,10 @@ bodyClass: "page-proyecto"
             <p class="project-meta"><strong>Estado:</strong> {{ page.estado }}</p>
             {% endif %}
 
+            {% if page.siguiente_fase %}
+            <p class="project-meta"><strong>Siguiente fase:</strong> {{ page.siguiente_fase }}</p>
+            {% endif %}
+
             <div class="content">{{ content }}</div>
 
             {% if page.github %}
@@ -55,6 +98,7 @@ bodyClass: "page-proyecto"
               {% case page.tipo %}
               {% when 'publico' %}Abierto a todo público
               {% when 'dimec' %}Abierto a DIMEC
+              {% when 'fcfm' %}Abierto a estudiantes FCFM
               {% when 'lemur' %}Solo integrantes LEMUR
               {% else %}{{ page.tipo }}
               {% endcase %}

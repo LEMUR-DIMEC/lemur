@@ -2,11 +2,17 @@
 title: Laboratorio de Mecatrónica y Robótica
 layout: home
 intro_images:
-  - "images/illustrations/robot_1.png"
+  - "images/illustrations/extrusora_1.jpeg"
+  - "images/illustrations/extrusora_2.JPG.jpeg"
   - "images/illustrations/lemur_perro.jpg"
   - "images/illustrations/lemur_1.jpg"
   - "images/illustrations/lemur_2.jpg"
   - "images/illustrations/lemur_3.jpg"
+  - "images/illustrations/hermes_2.png"
+  - "images/illustrations/hermes_3.png"
+  - "images/illustrations/hermes_4.png"
+  - "images/illustrations/kiltro_2.jpeg"
+  - "images/illustrations/kiltro_4.jpeg"
 show_call_box: true
 ---
 <div class="fcfm-logo-wrapper" style="margin-top: -80px; margin-bottom: 20px;">

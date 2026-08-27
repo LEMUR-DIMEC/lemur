@@ -14,8 +14,24 @@
     }
   }
 
+  .project-gallery.intro-gallery {
+    max-width: none;
+    aspect-ratio: 4 / 3;
+    border-radius: 6px;
+    margin: 0 0 20px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
+  }
+
   .project-meta {
     margin-bottom: 6px;
+    font-size: 1rem;
+  }
+
+  .project-meta-list {
+    margin: 0 0 6px;
+    padding-left: 20px;
     font-size: 1rem;
   }
 

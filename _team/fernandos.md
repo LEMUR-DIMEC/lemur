@@ -2,7 +2,7 @@
 layout: team-profile
 title: "Fernando San Martin"
 image: "images/team/generico-M.jpg"
-jobtitle: "Auxiliar - Curso Robótica"
+jobtitle: "Ayudante - Curso Robótica"
 category: estudiante
 promoted: true
 linkedinurl: 
@@ -13,4 +13,4 @@ weight: 9
 
 # Participación en Cursos
 
-    * Auxiliar : ME5150 Robótica
+    * Ayudante : ME5150 Robótica

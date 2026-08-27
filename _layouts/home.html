@@ -39,7 +39,7 @@ bodyClass: "page-home"
   <div class="container pt-3 pb-3 pt-md-3 pb-md-3">
     <div class="research-rotator text-center">
       <h2>Líneas de investigación</h2>
-    <div class="rotating-word fade-in">🐙 Robótica Blanda</div>
+    <div class="rotating-word fade-in">Robótica Blanda</div>
     </div>
   </div>
 </div>
@@ -55,8 +55,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-3 mb-1">
         <div class="service service-summary text-center">
           <div class="service-content">
-  <img src="{{ member.image | relative_url }}" alt="{{ member.title }}" style="width: 120px; border-radius: 50%; margin-bottom: 10px;">
-  <h2 class="service-title">{{ member.title }}</h2>
+  <a href="{{ member.url | relative_url }}">
+    <img src="{{ member.image | relative_url }}" alt="{{ member.title }}" style="width: 120px; border-radius: 50%; margin-bottom: 10px;">
+  </a>
+  <h2 class="service-title"><a href="{{ member.url | relative_url }}">{{ member.title }}</a></h2>
   <p>{{ member.jobtitle }}</p>
   
   <div class="team-links mt-2">
