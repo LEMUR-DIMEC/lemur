@@ -18,7 +18,7 @@ Líneas de investigación: Robótica Blanda
 
 ### Liderando Aurora Research - Soft Robotics
 
-Más información en este link: [www.carolinnesilva/aurora](https://www.carolinnesilva/aurora)
+Más información en este link: [www.carolinnesilva/aurora](https://www.carolinnesilva.com/aurora)
 
 # Líneas de investigación: 
     * Robótica Blanda
