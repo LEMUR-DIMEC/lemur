@@ -1,6 +1,6 @@
 ---
 title: "Valentina Abarca González"
-image: "images/team/generico-F.jpg"
+image: "images/team/valentina.jpg"
 jobtitle: "Auxiliar - Curso Mecatrónica"
 category: estudiante
 promoted: true
