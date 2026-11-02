@@ -13,6 +13,11 @@ intro_images:
   - "images/illustrations/hermes_4.png"
   - "images/illustrations/kiltro_2.jpeg"
   - "images/illustrations/kiltro_4.jpeg"
+  - "images/illustrations/brazo_perro_9.jpg"
+  - "images/illustrations/brazo_perro_10.jpg"
+  - "images/illustrations/brazo_perro_7.jpg"
+  - "images/illustrations/brazo_perro_3.jpg"
+
 show_call_box: true
 ---
 <div class="fcfm-logo-wrapper" style="margin-top: -80px; margin-bottom: 20px;">
