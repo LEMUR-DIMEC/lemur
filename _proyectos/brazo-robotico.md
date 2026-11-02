@@ -1,6 +1,7 @@
 ---
 layout: proyecto
 title: "Brazo Robótico para el Perro Robot"
+image: "images/illustrations/brazo_perro_9.jpg"
 images: 
     - "images/illustrations/brazo_perro_9.jpg"
     - "images/illustrations/brazo_perro_10.jpg"
