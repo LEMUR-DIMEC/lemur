@@ -52,3 +52,21 @@
     }
   }
 }
+
+// Lista de intereses dentro de la nota/bio de una tarjeta personal
+.bio-note {
+  ul {
+    margin: 0 0 14px;
+    padding-left: 22px;
+    font-style: normal;
+    color: $primary-dark;
+
+    li {
+      margin-bottom: 4px;
+
+      &::marker {
+        color: $primary;
+      }
+    }
+  }
+}

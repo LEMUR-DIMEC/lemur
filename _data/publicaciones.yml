@@ -1,0 +1,55 @@
+# Para agregar una publicación nueva, copia un bloque de "items".
+# Notas: texto en Markdown (puede incluir links).
+# Autores con "team" (URL de la tarjeta del equipo) salen en negrita y con link a su tarjeta.
+# Los demás autores salen como texto normal.
+
+notas:
+  - texto: 'El paper *Bioinspired Soft Modular Robotic Cubes* fue parte del [MDPI Top Picks de octubre 2026](https://blog.mdpi.com/2026/10/28/mdpi-top-picks-october-2026/){:target="_blank" rel="noreferrer"}.'
+
+items:
+  - titulo: "Bioinspired Soft Modular Robotic Cubes as Building Blocks for Adaptive Machines"
+    revista: "Robotics 15(10), 196"
+    year: 2026
+    doi: "10.3390/robotics15100196"
+    url: "https://www.researchgate.net/publication/415641626_Bioinspired_Soft_Modular_Robotic_Cubes_as_Building_Blocks_for_Adaptive_Machines"
+    autores:
+      - nombre: "Harold Valenzuela-Coloma"
+        team: "/equipo/pr-haroldv/"
+      - nombre: "Carolina Silva-Plata"
+        team: "/equipo/pr-carolinas/"
+      - nombre: "Ricardo-Franco Mendoza-García"
+      - nombre: "Rubén Fernández Urrutia"
+        team: "/equipo/pr-rubenf/"
+      - nombre: "Juan Cristóbal Zagal"
+
+  - titulo: "Literary Emotions in Motion: A Soft Robotics Installation for Tactile Storytelling"
+    revista: "IEEE Robotics & Automation Magazine"
+    year: 2026
+    doi: "10.1109/MRA.2026.3693101"
+    url: "https://ieeexplore.ieee.org/abstract/document/11539963"
+    autores:
+      - nombre: "Carolina Silva-Plata"
+        team: "/equipo/pr-carolinas/"
+      - nombre: "Abraham Villavicencio-Carmona"
+      - nombre: "Miguel Silva Plata"
+      - nombre: "Stefan Escaida"
+      - nombre: "Rubén Fernández"
+        team: "/equipo/pr-rubenf/"
+
+  - titulo: "Model-based capacitive touch sensing in soft robotics: Achieving robust tactile interactions for artistic applications"
+    revista: "IEEE Robotics and Automation Letters 10(5), 4596–4603"
+    year: 2025
+    doi: "10.1109/LRA.2025.3539940"
+    url: "https://doi.org/10.1109/LRA.2025.3539940"
+    autores:
+      - nombre: "Carolina Silva-Plata"
+        team: "/equipo/pr-carolinas/"
+      - nombre: "Carlos Rosel"
+      - nombre: "Barnabas Gavin Cangan"
+      - nombre: "Hosam Alagi"
+      - nombre: "Björn Hein"
+      - nombre: "Robert K. Katzschmann"
+      - nombre: "Rubén Fernández"
+        team: "/equipo/pr-rubenf/"
+      - nombre: "Yosra Mojtahedi"
+      - nombre: "Stefan Escaida Navarro"

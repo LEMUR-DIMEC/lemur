@@ -8,6 +8,9 @@ main:
   - name: "Investigación"
     url: "/investigacion/"
     weight: 4
+  - name: "Publicaciones"
+    url: "/publicaciones/"
+    weight: 5
 
 footer:
   - name: "Inicio"

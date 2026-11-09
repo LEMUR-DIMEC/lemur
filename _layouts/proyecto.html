@@ -93,6 +93,10 @@ bodyClass: "page-proyecto"
             <p class="project-meta"><a href="{{ page.github }}" target="_blank" rel="noreferrer">Ver en GitHub</a></p>
             {% endif %}
 
+            {% if page.sitio_web %}
+            <p class="project-meta"><a href="{{ page.sitio_web }}" target="_blank" rel="noreferrer">{{ page.sitio_web_texto | default: "Sitio web del proyecto" }}</a></p>
+            {% endif %}
+
             <span class="badge-tipo">
               Proyecto:
               {% case page.tipo %}

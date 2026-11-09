@@ -17,5 +17,7 @@ estudiante_url: "/equipo/lucas/"
 estado: "En Desarrollo"
 tipo: lemur
 github:
+sitio_web: "https://gamma-zero.com/"
+sitio_web_texto: "Link a Gamma-zero"
 weight: 1
 ---
